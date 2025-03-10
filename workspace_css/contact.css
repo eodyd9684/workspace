@@ -1,0 +1,49 @@
+.container{
+  height: 100vh;
+
+  /* 100vw : 스크롤도 포함! */
+  /* 100% : 스크롤 너비는 제외 */
+  width: 100%;
+  background-color: #caf4ff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.member{
+  width: 400px;
+  background-color: white;
+  background-color: 1px colid black;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding 6px;
+  border-radius: 6px;
+  transition: all 0.7;
+}
+
+img{
+  border: 1px solid lightgray;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.detail{
+  width: 80%;
+}
+
+.name{
+  font-weight: 600;
+}
+
+.email{
+  color: #888888;
+  font-size: 0.9rem;
+}
+
+.member:hover{
+scale: 1.1;
+}

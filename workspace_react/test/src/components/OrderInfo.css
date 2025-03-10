@@ -1,0 +1,36 @@
+.container{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.list-Oder{
+  border: 1px solid black;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.list-Oder tr, .list-Oder td{
+  border: 1px solid black;
+}
+
+.lt{
+  background-color: rgb(101, 102, 177);
+}
+.detail{
+  border: 1px solid black;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.detail tr, .detail td{
+  border: 1px solid black;
+}
+.dt{
+  background-color: beige;
+}

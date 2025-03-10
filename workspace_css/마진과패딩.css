@@ -1,0 +1,29 @@
+.d1{
+  border: 1px solid black;
+  /* padding: 30px; */
+
+  /* 안쪽여백 padding */
+  /* 상하, 좌우 */
+  /* padding: 20px 50px; */
+  /* 12시 방향부터 시계방향(상 우 하 좌) */
+  padding: 10px 20px 30px 40px;
+
+  /* 밖에 여백 margin */
+  margin: 0px 0px 30px 20px;
+}
+
+.d2{
+  border: 3px dotted black;
+  width: 300px;
+  padding: 0px 10px;
+
+/* * -> 에스테리스크 (모든, 전부, all) */
+  /* 박스의 크기 기준을 내용박스로 기준 */
+  box-sizing: border-box;
+}
+
+.d3{
+  border: 3px solid red;
+  height: 80px;
+  width: 300px;
+}

@@ -1,0 +1,19 @@
+/*
+  1위 - !important 속성이 붙은 것
+  2위 - 인라인 스타일
+  3위 - id 선택자
+  4위 - 클래스 선택자 
+  5위 - 태그 선택자 
+  */
+
+#ppp{
+  background-color: royalblue;
+}
+
+.d1{
+  background-color: aqua;
+}
+
+div{
+  background-color: saddlebrown;
+}

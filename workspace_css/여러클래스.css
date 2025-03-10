@@ -1,0 +1,21 @@
+.d1{
+  border: 1px solid red;
+  background-color: aqua;
+}
+
+/* 가장 늦게 나온색으로 덮음 */
+.d2{
+  color: blue;
+}
+
+.dd{
+  border: 1px solid green;
+  background-color: red;
+}
+.d3{
+  color: skyblue;
+}
+
+.d4{
+  color: white;
+}
