@@ -1,0 +1,10 @@
+로그인 하면
+1. loginInfo변수에 로그인 정보 저장
+2. sessionStorage에도 로그인 정보 저장
+
+새로고침하면
+1.loginInfo변수의 데이터는 초기화된다.
+2.sessionStorage에 저장된 데이터는 유지된다.
+3.App.jsx를 다시 읽고 -> useEffect가 실행
+  -> sessionStorage에 있는 로그인 정보를 가져와서
+      loginInfo변수에 다시 넣어준다.

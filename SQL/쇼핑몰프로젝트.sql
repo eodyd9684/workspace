@@ -44,3 +44,6 @@ CREATE TABLE SHOP_USER(
 );
 
 SELECT * FROM shop_user;
+#관리자 정보 INSERT
+INSERT INTO shop_user VALUES('admin', '1111', '관리자', 'aaa@gmail.com', '010-3333-4444', 'ADMIN','Y', NOW());
+COMMIT;
