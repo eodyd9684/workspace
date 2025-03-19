@@ -14,9 +14,17 @@ const Test = () => {
   
   //버튼 클릭시 id중 가장 큰id + 1 하는 함수
   const clickBtn = () => {
-    const max = Math.max(...(cartList.map((e, i) => {return(e.id)}))) + 1
-    console.log(max)
-    setCartList([...cartList, {id : max, text : newItem}])
+    //빈 문자 입력방지
+    if(newItem === ''){
+      return
+    }
+    else{
+      const max = Math.max(...(cartList.map((e, i) => {return(e.id)}))) + 1
+      console.log(max)
+      setCartList([...cartList, {id : max, text : newItem}])
+      setNewItem('')
+
+    }
   }
 
          
@@ -24,7 +32,10 @@ const Test = () => {
     <>
      <div className={styles.maincontainer}>
         <h3>To Do List</h3>
-        <input type="text" value={newItem} onChange={(e)=>{setNewItem(e.target.value)}}/>
+        <input type="text" 
+                value={newItem} 
+                onChange={(e)=>{setNewItem(e.target.value)}}
+                placeholder='+ Add a Task'/>
         <button type='button' 
         onClick={() => {clickBtn()}}>등록</button>
         <div className={styles.container}>

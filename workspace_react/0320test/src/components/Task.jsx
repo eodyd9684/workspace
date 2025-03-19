@@ -45,10 +45,9 @@ const Task = ({list, cartList, setCartList}) => {
     </div>
     :
     <div className={styles.input}>
-      <div>{list.text}
+      <div className={styles.text}>{list.text}</div>
         <img src='/edit.png' onClick={e => {setIsShow(true)}}/>
         <img src="/delete.png" onClick={e => {deleteData()}}/>
-      </div>
     </div>
   )
 }
